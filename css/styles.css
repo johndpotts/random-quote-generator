@@ -1,9 +1,10 @@
 body {
-  background-image: url("http://res.cloudinary.com/dnyy6kcjj/image/upload/v1499994662/giphy_fywhp0.gif");
-  background-color: #FFF;
-  background-size: cover;
+  background-image: url("../images/background.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 .vertical-center {
@@ -24,7 +25,7 @@ body {
   font: Roboto;
   opacity: .6;
   cursor: pointer;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -38,7 +39,7 @@ body {
   opacity: .6;
   font-size: 48px;
   cursor: pointer;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 
