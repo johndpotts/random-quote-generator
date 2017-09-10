@@ -1,0 +1,47 @@
+body {
+  background-image: url("http://res.cloudinary.com/dnyy6kcjj/image/upload/v1499994662/giphy_fywhp0.gif");
+  background-color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.vertical-center {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.mid-center {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.another-quote-button {
+  background-color: fff;
+  border: 2px solid;
+  border-radius: 25px;
+  padding: 10px;
+  font: Roboto;
+  opacity: .6;
+  cursor: pointer;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.twitter-button {
+  background-color: fff;
+  border: 2px solid;
+  padding: 10px;
+  margin: 200px;
+  border-radius: 15px;
+  font: Roboto;
+  opacity: .6;
+  font-size: 48px;
+  cursor: pointer;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.opaque {
+  opacity:.6;
+}
