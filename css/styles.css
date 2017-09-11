@@ -1,42 +1,48 @@
 body {
   background-image: url("../images/background.jpg");
   background-size: contain;
+  background-position: bottom;
   background-repeat: no-repeat;
   text-align: center;
   font-family: sans-serif;
   font-size: 20px;
 }
 
-.vertical-center {
-  margin-top: 200px;
-  margin-bottom: 100px;
+footer {
+  margin-bottom: 200px;
+  font-size: 14px;
 }
 
-.mid-center {
+.content {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.share {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.another-quote-button {
-  background-color: fff;
+#get-another-quote-button {
+  background-color: #AAA;
   border: 2px solid;
   border-radius: 25px;
+  opacity: .9;
   padding: 10px;
   font: Roboto;
-  opacity: .6;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
 }
 
 .twitter-button {
-  background-color: fff;
+  background-color: #AAA;
   border: 2px solid;
   padding: 10px;
-  margin: 200px;
+  margin: 100px;
   border-radius: 15px;
   font: Roboto;
-  opacity: .6;
+  opacity: .9;
   font-size: 48px;
   cursor: pointer;
   margin-left: auto;
@@ -44,5 +50,5 @@ body {
 }
 
 .opaque {
-  opacity:.6;
+  opacity: .6;
 }
